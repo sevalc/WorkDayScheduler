@@ -59,7 +59,7 @@ function colorTimeBlocks(){
 // paint current time block
     if ((currentHourSlot >= 0) && (currentHourSlot < timeBlockCount)){
         var textAreaEl = document.getElementById("text_" + currentHourSlot);
-        textAreaEl.style.backgroundColor = "red";
+        textAreaEl.style.backgroundColor = "#ff6961";
     }
 
 // paint future time blocks
@@ -69,7 +69,7 @@ function colorTimeBlocks(){
     }
     for (var i = futureBegin; i < timeBlockCount; i++){
         var textAreaEl = document.getElementById("text_" + i);
-        textAreaEl.style.backgroundColor = "green";
+        textAreaEl.style.backgroundColor = "#77dd77";
     }
 }
 
